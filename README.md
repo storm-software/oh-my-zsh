@@ -21,8 +21,9 @@
 
 A [Customization](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization) for Oh My Zsh terminals.
 
-<br />
 <h3 align="center">💻 Visit <a href="https://stormsoftware.com" target="_blank">stormsoftware.com</a> to stay up to date with this developer</h3>
+
+<br />
 
 ## Acknowledgements
 

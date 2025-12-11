@@ -6,7 +6,7 @@
 PROMPT='$(prompt_start)$(prompt_dir)$(prompt_git)
 %{$fg[white]%}${ICONS[terminal]} $ '
 
-if [[ "${DROFLOH_THEME_RPROMPT:-true}" == "true" ]]; then
+if [[ "${STORM_SOFTWARE_THEME_RPROMPT:-true}" == "true" ]]; then
   RPROMPT='$(prompt_ruby_rbenv)$(prompt_time)$(prompt_battery)'
 fi
 
