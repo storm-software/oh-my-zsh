@@ -7,18 +7,14 @@ typeset -AHg ICONS
 
 ICONS=(
   # Prompt separators
-  # flame_right        $'\ue0c0' # 
-  # flame_left         $'\ue0c2' # 
   flame_right        $'\ue0c8' # 
   flame_left         $'\ue0ca' # 
   terminal           $'\uf120' # 
 
   # OS logos
-  # apple_logo         $'\uf302' # 
   apple_logo         $'\uee15' # 
 
   # directory icon
-  # folder             $'\ufc6e' # ﱮ
   folder             $'\uf07b' # ﱮ
 
   # battery usage
@@ -35,7 +31,7 @@ ICONS=(
   time               $'\uf49b' # 
 
   # ruby icon
-  ruby               $'\ue21e' #  
+  ruby               $'\ue21e' # 
 
   # git status icons
   git_branch         $'\ue0a0' # 
@@ -61,8 +57,8 @@ function rprompt_separator() {
 
 function prompt_start() {
   local bg_col=%{$BG[236]%}
-  
-  local ret_status="%(?:%{$fg[cyan]%} $ICONS[apple_logo] :%{$fg[red]%} $ICONS[apple_logo] ) ${reset_color}"
+
+  local ret_status="%(?:%{$FG[79]%} $ICONS[apple_logo] :%{$fg[red]%} $ICONS[apple_logo] ) ${reset_color}"
   echo "${bg_col}${ret_status}"
 }
 

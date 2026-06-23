@@ -10,7 +10,7 @@ if [[ "${STORM_SOFTWARE_THEME_RPROMPT:-true}" == "true" ]]; then
   RPROMPT='$(prompt_ruby_rbenv)$(prompt_time)$(prompt_battery)'
 fi
 
-# git prompt customisations
+# git prompt customizations
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[yellow]%}${ICONS[git_branch]}"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%}${ICONS[git_branch]}"
 ZSH_THEME_GIT_PROMPT_ADDED=" %{$fg[magenta]%}${ICONS[git_added]}"
